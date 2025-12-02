@@ -1,4 +1,7 @@
 node_modules
-.github/*
-package-lock.json
+.github
 dist
+package-lock.json
+*.md
+*.html
+*.yml
