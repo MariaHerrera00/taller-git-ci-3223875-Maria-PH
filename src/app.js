@@ -14,7 +14,7 @@ function agregarItem(texto) {
 }
 
 // Evita errores en Jest (document no existe)
-if (typeof document !== "undefined") {
+if (typeof document !== 'undefined') {
   document.getElementById('btn-agregar')?.addEventListener('click', () => {
     const input = document.getElementById('input-texto');
     if (input.value.trim() !== '') {
@@ -23,6 +23,5 @@ if (typeof document !== "undefined") {
     }
   });
 }
-
 
 module.exports = { suma, agregarItem };
