@@ -1,0 +1,26 @@
+{
+  "name": "taller-git-ci-3223875-maria-ph",
+  "version": "1.0.0",
+  "description": "Proyecto del taller de Git y Continuous Integration para el SENA.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MariaHerrera00/taller-git-ci-3223875-Maria-PH.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MariaHerrera00/taller-git-ci-3223875-Maria-PH/issues"
+  },
+  "homepage": "https://github.com/MariaHerrera00/taller-git-ci-3223875-Maria-PH#readme",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
